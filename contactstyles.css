@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: #fcde67e8; */
+}
+
+.nav{
+    background-color: black;
+}
+
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.nav ul li{
+    float: left;
+}
+
+.nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+/* .nav ul li a:hover:not(.active){
+    background-color: black;
+} */
+
+.nav ul li a:hover{
+   background-color: #fcde67e8;
+}
+
+.active{
+    background-color: #5bccf6;
+}
+
+.infoContactform{
+    padding: 0 34px;
+    padding-top: 20px;
+}
+.infoContactform h1{
+    margin: 0px 0px 0px 34px;
+    padding: 0 34px;
+    font: bold;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #003399;
+}
+.infoContactform form div{
+    padding: 8px 0;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.infoContactform form div input{
+    padding: 8px 0;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    border-radius: 8px;
+}
+#emailHelp{
+    font-style: oblique;
+    margin: -1px 5px;
+    font-size: 10px;
+}
+.btn{
+    margin: 0px 3px ;
+    padding: 9px 14px ;
+    color:white ;
+    background-color: #5bccf6;
+    border-radius: 22px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: rgb(17, 82, 179) ;
+    background-color: rgb(255, 255, 255);
+    border-color: white;
+}
+
+.pic img{
+    margin: 60px 240px 0px 00px;
+    float: right;
+    display: block;
+    height: 256px;
+    background-color: white;
+}
+
+
+/* Footer */
+
+.footer {
+    position:fixed;
+    bottom:0;
+    left:0vw;
+    width:100%;
+    height: 35px;
+    background-color: #5bccf6;
+  }
+  
+  
+  .footer-text-left {
+    font-size:25px;
+    padding-left:40px;
+    float:left;
+    word-spacing:20px;
+  }
+  .footer-text-left p{
+    font-size:25px;
+    padding-left:40px;
+    float:left;
+    word-spacing:20px;
+  }
+  
+  a.menu {
+    color:white;
+    text-decoration: none;
+    font-size:20px;
+    padding: 5px;
+}
+.footer a.menu:hover {
+    background-color: white;
+    color: #5bccf6;
+    font-size:20px;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  
+  .footer-content-right {
+    padding-right:20px;
+    margin-top:0px;
+    float:right;
+  }
+  
+  .icon-style {
+    height: 23px;
+    margin-left:10px;
+    margin-top:5px;
+  }
+  
+  .icon-style:hover {
+    background-color:#5bccf6;
+    height: 25px;
+  }
